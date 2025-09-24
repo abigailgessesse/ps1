@@ -11,19 +11,19 @@ Try to take full advantage of [Markdown](https://www.google.com/url?q=https%3A%2
 ### **Textbook Exercise 2.1**
 
 #### 1. We’ve seen that `n = 42` is legal. What about `42 = n`?  
-*-- your response here -- *  
+    Not legal.  
 
 #### 2. How about `x = y = 1`?  
-*-- your response here --*  
+    Not legal.
 
 #### 3. In some languages, every statement ends with a semi-colon `;`. What happens if you put a semi-colon at the end of a Python statement?  
-*-- your response here --*  
+    It will ignore it, but you generally shouldn't put one as it is not required in Python.
 
 #### 4. What if you put a period at the end of a statement?  
-*-- your response here --*  
+    There will be a syntax error.
 
 #### 5. In math notation, you can multiply `x` and `y` like this: `x y`. What happens if you try that in Python?  
-*-- your response here --*  
+    It will not recognize it as multiplication of two separate variables. You must do x * y.
 
 
 # Question 2A
@@ -47,4 +47,10 @@ Before we try that, let's first try to put it into english how to do this.
  ##### Suppose the cover price of a book is  $24.95 , but bookstores get a  40%  discount. 
  ##### Shipping costs  $3  for the first copy and 75 cents for each additional copy.
 
-*-- your response here --* 
+    Answer:
+    The total wholesale cost can be a variable 'totalCost' and the number of copies will be the variable 'copies'
+    Use the formula: totalCost = (3 + 0.75 * (copies - 1)) * (0.6 * 24.95) 
+    This will automatically charge the 3 dollars for the first copy shipping, then charge 0.75 for the rest of the copies shipping.
+    Then it'll simply charge the cover price, after the 40% discount.
+    **One important thing to note**: If the number of copies ordered is 0, an additional if statement will be needed under that states: "if 
+    copies is less than 1, update the totalCost to equal 0."
