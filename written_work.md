@@ -52,5 +52,5 @@ Before we try that, let's first try to put it into english how to do this.
     Use the formula: totalCost = (3 + 0.75 * (copies - 1)) * (0.6 * 24.95) 
     This will automatically charge the 3 dollars for the first copy shipping, then charge 0.75 for the rest of the copies shipping.
     Then it'll simply charge the cover price, after the 40% discount.
-    **One important thing to note**: If the number of copies ordered is 0, an additional if statement will be needed under that states: "if 
+    One important thing to note: If the number of copies ordered is 0, an additional if statement will be needed under that states: "if 
     copies is less than 1, update the totalCost to equal 0."
