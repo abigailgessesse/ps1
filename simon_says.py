@@ -8,31 +8,33 @@ def simon_says():
     Every change to a variable should update the value of it to the new value.
     """
     # TODO: Simon says start with x = 0
-    
+    x = 0
     # TODO: Simon says add 5 to x
-    
+    x += 5
     # TODO: Simon says multiply x by 2
-    
+    x *= 2
     # TODO: Simon says print the value of x
-    
-    # TODO: Simon make a variable y and set it to 10
-    
+    print(x)
+    # TODO: Simon says make a variable y and set it to 10
+    y = 10
     # TODO: Simon says subtract y from x
-    
+    x -= y
     # TODO: Print the value of x
     
     # TODO: Simon says to set x to "Hello, World!"
-    
+    x = "Hello, World!"
     # TODO: Simon says Print the value of x
-    
+    print(x)
     # TODO: Simon says to set x to 3.14
-    
+    x = 3.14
     # TODO: Simon says Print the value of x + y
-    
+    print(x+y)
     # TODO: Simon says set x to 42
-    
+    x = 42
     # TODO: Simon says divide x by 2
-    
+    x /= 2
     # TODO: Simon says to print the value of x
-    
+    print(x)
     return None
+
+simon_says()
